@@ -1,0 +1,26 @@
+/**
+ * Stylesheet for Admin
+ *
+ */
+
+.mnm-plus {
+    color: #44a94d;
+    cursor: pointer;
+}
+.mnm-no {
+  color: #da4412;
+  cursor: pointer;
+}
+.form-table-mnm-3 td {
+    padding-right: 8px;
+}
+.form-table-mnm-3 tbody tr > .mnm-no{
+  display: none;
+}
+.form-table-mnm-3 tbody tr:first-child {
+    display: none;
+}
+span.mnm-required {
+    position: absolute;
+    color: #da4412;
+}
